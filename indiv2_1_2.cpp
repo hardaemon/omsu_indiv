@@ -75,7 +75,7 @@ int main()
 				} while (c8 < 2 || c8 > 100);
 				for (int j = 1; j <= c8; j++)
 				{
-					while (s3 < s) s3 = (rand() % 100 - 50) * 0.1;
+					while (s3 <= s) s3 = (rand() % 100 - 50) * 0.1;
 					s = s3;
 					file << s;
 					file << probel;
