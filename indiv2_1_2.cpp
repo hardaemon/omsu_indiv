@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <ctime>
 using namespace std;
@@ -51,12 +51,12 @@ int main()
 			} while (c7 < 0 || c7 > 1000);
 			if (c7 > 0)
 			{
-				s = (rand() % 100 - 50) * 0.1;
+				s = (rand() % 500 - 250) * 0.1;
 				file << s;
 				file << probel;
 				for (int j = 2; j <= c7; j++)
 				{
-					while (s2 > s) s2 = (rand() % 100 - 50) * 0.1;
+					while (s2 > s) s2 = (rand() % 500 - 250) * 0.1;
 					s = s2;
 					file << s;
 					file << probel;
@@ -75,7 +75,7 @@ int main()
 				} while (c8 < 2 || c8 > 100);
 				for (int j = 1; j <= c8; j++)
 				{
-					while (s3 <= s) s3 = (rand() % 100 - 50) * 0.1;
+					while (s3 <= s) s3 = (rand() % 500 - 250) * 0.1;
 					s = s3;
 					file << s;
 					file << probel;
@@ -90,7 +90,7 @@ int main()
 				} while (c9 < 0 || c9 > 1000);
 				for (int z = 1; z <= c9; z++)
 				{
-					while (s2 > s) s2 = (rand() % 100 - 50) * 0.1;
+					while (s2 > s) s2 = (rand() % 500 - 250) * 0.1;
 					s = s2;
 					file << s;
 					file << probel;
@@ -129,7 +129,7 @@ int main()
 			{
 				for (int i = 1; i <= c3; i++)
 				{
-					s = (rand() % 100 - 50) * 0.1;
+					s = (rand() % 500 - 250) * 0.1;
 					file << s;
 					file << probel;
 				}
