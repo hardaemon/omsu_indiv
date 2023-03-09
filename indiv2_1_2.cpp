@@ -14,6 +14,7 @@ int main()
 	string probel = " ";
 	short c1 = 0, c2 = 0, c3 = 0, c4 = 0, c5 = 0, c6 = 0, c7 = 0, c8 = 0, c9 = 0;
 	double s = 0, s2 = 1000, s3 = -1000;
+	srand(time(0));
 	cout << "Генератор вещественных чисел" << endl;
 	cout << "Сколько файлов создать? (от 1 до 101)" << endl;
 	do
@@ -126,7 +127,6 @@ int main()
 			}
 			if (c5 == 2)
 			{
-				srand(time(0));
 				for (int i = 1; i <= c3; i++)
 				{
 					s = (rand() % 100 - 50) * 0.1;
